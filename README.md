@@ -16,7 +16,9 @@ https://project.inria.fr/aerialimagelabeling/download/
 As imagens originais do dataset estão em um tamanho muito grande. Não temos memória o suficiente para processar a imagem de uma vez
 em nossa rede neural por isso temos que fazer recortes nas imagens.
 
-Execute o codigo:
+Note que você pode alterar o valor da resolução para menos.
+
+Execute o codigo: https://github.com/marcosfelipp/buildingRecognition/blob/master/resize_and_split_images.py
 
 <h3>Convertendo o Dataset para formato do Tensorflow:</h3>
 
